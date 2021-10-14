@@ -3,8 +3,9 @@
 Adds a simple command line API for pgagent
 
 e.g.
-SELECT pgagent.remove_job('reindex');
-SELECT pgagent.add_job('reindex', '15 0 * * *', 'reindex database postgres');
+
+* SELECT pgagent.remove_job('reindex');
+* SELECT pgagent.add_job('reindex', '15 0 * * *', 'reindex database postgres');
 
 SQL script - no binary component.
 
